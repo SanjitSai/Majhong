@@ -1,0 +1,43 @@
+/* SuccessScreen.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .success-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  
+  .score-time {
+    margin-bottom: 20px;
+  }
+  
+  .score-time p {
+    font-size: 18px;
+  }
+  
+  .play-again-button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .play-again-button:hover {
+    background-color: darkblue;
+  }
+  
